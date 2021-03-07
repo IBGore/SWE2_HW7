@@ -6,3 +6,7 @@ def toStr(num):
     if(num % 5 == 0):
         return "Buzz"
     return str(num)
+
+def printFizzBuzz():
+    for x in range(1, 101):
+        print(toStr(x))
